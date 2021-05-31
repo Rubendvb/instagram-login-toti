@@ -97,7 +97,7 @@ input::placeholder {
 
 .separation > hr {
   border: 1px solid black;
-  margin: 0;
+  margin: 0 0 0 0;
   width: 120px;
 }
 
