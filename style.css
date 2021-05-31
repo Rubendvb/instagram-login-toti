@@ -100,6 +100,13 @@ input::placeholder {
   width: 120px;
 }
 
+.separation > p {
+  color: rgb(142, 142, 142);
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 .imgFooter {
   height: 40px;
 }
