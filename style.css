@@ -86,6 +86,21 @@ input::placeholder {
   padding: 5px 9px;
 }
 
+.separation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.separation > hr {
+  border: 1px solid black;
+  margin: 0;
+  width: 120px;
+}
+
 .imgFooter {
   height: 40px;
 }
