@@ -15,14 +15,13 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 3% auto 0;
   max-width: 100%;
   padding-bottom: 32px;
   width: 100%;
 }
 
 .bgPhone {
-  width: 50%;
+  width: 32%;
   background-image: url(/img/phone.png);
   background-position: 0 0;
   background-repeat: no-repeat;
@@ -35,8 +34,51 @@ body {
   margin-top: 99px;
 }
 
-.bgForm {
-  justify-content: center;
+.logo {
+  background-image: url(/img/Instagram_logo.png);
+  background-repeat: no-repeat;
+  background-position: 0 -130px;
+  height: 51px;
+  width: 175px;
+  margin: 22px auto 12px;
+}
+
+.styleForm {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 1px;
+  height: 379px;
+  width: 350px;
+  margin: 67px 0 10px 0;
+  padding: 34px 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+input {
+  margin: 2px;
+  background-color: rgb(250, 250, 250);
+  border: 1px solid rgb(219, 219, 219);
+  padding: 9px 0 7px 8px;
+  width: 270px;
+}
+
+input::placeholder {
+  color: rgb(142, 142, 142);
+}
+
+.enter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.enter button {
+  background-color: rgb(153, 213, 241);
+  margin: 8px 40px 40px 8px;
 }
 
 .imgFooter {
