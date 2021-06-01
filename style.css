@@ -40,7 +40,21 @@ body {
   background-position: 0 -130px;
   height: 51px;
   width: 175px;
-  margin: 22px auto 12px;
+  margin: 6px auto 12px;
+}
+
+.logofb {
+  background-image: url(../instagram-login-toti/img/fb.png);
+  background-repeat: no-repeat;
+  height: 17px;
+  width: 17px;
+  background-size: contain;
+  margin-right: 2px;
+}
+
+.fb {
+  display: flex;
+  justify-content: center;
 }
 
 .styleForm {
@@ -49,10 +63,10 @@ body {
   background-color: #ffffff;
   border: 1px solid rgb(219, 219, 219);
   border-radius: 1px;
-  height: 379px;
+  height: 300px;
   width: 350px;
   margin: 67px 0 10px 0;
-  padding: 34px 0;
+  padding: 34px 0 0 0;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
@@ -106,6 +120,7 @@ input::placeholder {
   display: flex;
   flex-direction: column;
   align-items: center;
+  height: 30px;
 }
 
 .enter button {
@@ -130,4 +145,10 @@ input::placeholder {
 
 .imgFooter {
   height: 40px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
