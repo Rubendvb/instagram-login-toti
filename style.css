@@ -22,7 +22,7 @@ body {
 
 .bgPhone {
   width: 32%;
-  background-image: url(../instagram-login-toti/img/phone.png);
+  background-image: url(/img/phone.png);
   background-position: 0 0;
   background-repeat: no-repeat;
   height: 618px;
@@ -35,7 +35,7 @@ body {
 }
 
 .logo {
-  background-image: url(../instagram-login-toti/img/Instagram_logo.png);
+  background-image: url(/img/Instagram_logo.png);
   background-repeat: no-repeat;
   background-position: 0 -130px;
   height: 51px;
