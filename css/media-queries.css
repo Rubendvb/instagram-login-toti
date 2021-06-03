@@ -1,0 +1,50 @@
+/* Tablet */
+
+@media screen and (min-width: 876px) {
+  main {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+
+  .phone-container {
+    display: initial;
+  }
+
+  .container {
+    order: 1;
+  }
+
+  footer {
+    width: 100%;
+    justify-content: flex-start;
+    padding-left: 4rem;
+  }
+
+  .links {
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+
+  .links li {
+    flex-basis: auto;
+    margin-right: 1rem;
+  }
+
+  .links a {
+    margin-bottom: 0;
+  }
+
+  .copyright {
+    text-align: center;
+  }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1527px) {
+  footer {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
